@@ -1,59 +1,71 @@
-# Site settings
-title: Chialities
-tagline: "[...]"
-email: charles.s.chi@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-    Hi, I'm a Data Scientist!
-baseurl: "/gaya" # the subpath of your site, e.g. /blog/
-url: "http://cchi.github.io" # the base hostname & protocol for your site
-logourl: /assets/images/logo.png # Site logo
-author: "Charles Chi"
-author_thumbnail: "/assets/images/avatar.jpg" # Author avatar
-# Theme customization - please change from the defaults!
-theme:
-  # Color for sidebar bar, links, etc
-  highlight_color: "#205081" #205081" # "#272935"
-  # Social media links, leave blank to ignore
-  social: 
-    github: cchi
-    twitter: ChiN0te
-    facebook: charles.s.chi
-    gplus: +CharlesChi_x
-    pinterest: chin0te
+title:            Charles Chi
+description:      "Data Scientist"
+logo:             logo.png
+disqus_shortname: tmp
+share:            true
+dropcap:	   true
+# Change url to your domain. Leave localhost server or blank when working locally.
+# or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
+# whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
+url:        	 http://cchi.github.io
 
-  # Enable share buttons on post footer
-  show_share_buttons: true
+# Owner/author information
+owner:
+  name:           Charles Chi
+  avatar:         charleschi.jpg
+  email:          charles.s.chi@gmail.com
+  description:    It's Data Science! :)
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:        ChiN0te
+  facebook:       charles.s.chi
+  github:         cchi    
+  instagram:      charles.s.chi
+  # For Google Authorship https://plus.google.com/authorship
+  google_plus:    https://plus.google.com/u/0/+CharlesChi_x
 
-  # Show author picure, name and social links on post footer
-  show_author_info: true
+# Analytics and webmaster tools stuff goes here
+google_analytics:   UA-69003004-1
+google_verify:      
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:         
 
-  # Disqus comments manager - shortname
-  # disqus_shortname: gaya-webcreate
+# Links to include in footer navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+    external: false
+    icon: home
+  - title: Categories
+    url: /categories
+  - title: About
+    url: /about
 
-  # Google Analytics/Webmaster key, leave blank to ignore
-  google_analytics_key: 
-  google_webmaster_key: 
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    US/Pacific
+future:      true
+highlighter: pygments
+markdown:    kramdown
+paginate:    5
+paginate_path: "page:num"
 
-# Build settings
-markdown: kramdown
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   pretty
 
-# Permalinks
-permalink:        pretty
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
 
-# Pagination config
-paginate: 5
+  coderay:
+    coderay_line_numbers: 
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
 
-# Files/Folders to be excluded from generated _site folder
-exclude: 
-  - CNAME
-  - Gemfile
-  - Rakefile
-  - README.md
-  - .gitignore
-  - .sass-cache
-  - Gemfile.lock
+gems:
+- jemoji
 
-# Sass conversion configs
-sass:
-  sass_dir: assets/css/_sass
-  style: :compressed
