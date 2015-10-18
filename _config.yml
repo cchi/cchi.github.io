@@ -4,7 +4,7 @@ tagline: And Tagline
 email: charles.s.chi@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
     Hi, I'm a Data Scientist!
-baseurl: "/blog/" # the subpath of your site, e.g. /blog/
+baseurl: "/blog" # the subpath of your site, e.g. /blog/
 url: "http://cchi.github.io" # the base hostname & protocol for your site
 logourl: /assets/images/logo.png # Site logo
 author: "Charles Chi"
@@ -18,7 +18,7 @@ theme:
     github: cchi
     twitter: ChiN0te
     facebook: charles.s.chi
-    gplus: +charles.s.chi
+    gplus: +CharlesChi_x
     pinterest: chin0te
 
   # Enable share buttons on post footer
