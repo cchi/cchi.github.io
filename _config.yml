@@ -1,13 +1,14 @@
 title:            Charles Chi
 description:      "Chialities"
-logo:             logo.png
-disqus_shortname: tmp
+logo:             chialities-logo.png
+avatar:           cchi-avatar_reg.png
+disqus_shortname: cchi
 share:            true
-dropcap:	   true
+dropcap:	        true
 # Change url to your domain. Leave localhost server or blank when working locally.
 # or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
-url:        	 http://cchi.github.io  # http://localhost:4000
+url:              http://cchi.github.io  # http://localhost:4000
 
 # Owner/author information
 owner:
