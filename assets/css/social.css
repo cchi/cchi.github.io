@@ -2,7 +2,7 @@
  * social icons, hover change
  *
  */
-.social-icons i:hover {
+.notepad-site-footer .social-icons i:hover {
     color: #FFF;
     text-decoration: none;
     transition: all ease 0.3s;
@@ -11,24 +11,24 @@
     -o-transition: all ease 0.3s;
     -ms-transition: all ease 0.3s;
 }
-.fa-rss:hover {
+.notepad-site-footer .social-icons .fa-rss:hover {
   background: #FF6600;
 }
-.fa-twitter:hover {
+.notepad-site-footer .social-icons .fa-twitter:hover {
     background: #00ABE3;
 }
-.fa-google-plus:hover {
+.notepad-site-footer .social-icons .fa-google-plus:hover {
     background: #e64522;
 }
-.fa-facebook:hover { /* round facebook icon*/
+.notepad-site-footer .social-icons .fa-facebook:hover {
     background: #4060A5;
 }
-.fa-instagram:hover {
+.notepad-site-footer .social-icons .fa-instagram:hover {
     background: #375989;
 }
-.fa-linkedin:hover {
+.notepad-site-footer .social-icons .fa-linkedin:hover {
     background: #0094BC;
 }
-.fa-github:hover {
+.notepad-site-footer .social-icons .fa-github:hover {
     background: #343434;
 }
