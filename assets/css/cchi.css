@@ -131,7 +131,7 @@ a.sidebar-nav-item:focus {
   transform: translateZ(0);
   -webkit-transform: translateZ(0);
   z-index: 1000;
-  top:  1.5rem;
+  top:  5rem;
   left: 1rem;
   display: block;
   width: 2.2rem;
