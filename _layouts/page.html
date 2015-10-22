@@ -4,9 +4,9 @@
 {% include head.html %}
 </head>
 <body class="post-template page" itemscope itemtype="http://schema.org/WebPage">
-
-<main id="notepad-page-container" class="notepad-page-container" role="main">
-    
+{% include sidebar.html %}
+<div class="main-wrapper">
+    <main id="notepad-page-container" class="notepad-page-container" role="main">
         <header class="notepad-page-header">
             <div class="notepad-page-menu-header">
                     
@@ -40,16 +40,20 @@
             </div>
         </header>
 
-    <article class="notepad-page-content">
-        <div>{{ content }}</div>
-    </article>
-    <a href="#0" class="wc-top">Top</a>
+        <article class="notepad-page-content">
+            <div>{{ content }}</div>
+        </article>
 
-    <div class="cf"></div>
+        <a href="#0" class="wc-top">Top</a>
+        <label for="sidebar-checkbox" class="sidebar-toggle">
+          <span></span>
+        </label>
 
-    {% include footer.html %}
-</main>
+        <div class="cf"></div>
 
+    </main>
+</div>
+{% include footer.html %}
 {% include scripts.html %}  
 </body>
 </html>
