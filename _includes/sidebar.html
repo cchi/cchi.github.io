@@ -16,14 +16,36 @@ styles and `#sidebar-toggle-checkbox` for behavior.
     alt="{{ site.title }}" />
   {% endif %}
 
+  <div class="sidebar-info">
+      <p>
+        {{ site.sidebar_introduction }}
+      </p>
+  </div>
+
+  <nav class="sidebar-nav">
+
+    {% assign pages_list = site.links %}
+    {% for node in pages_list %}
+      {% if node.title != null %}
+          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+      {% endif %}
+    {% endfor %}
+
+  </nav>
+
+  <div class="sidebar-info">
+      <p>
+        {{ site.sidebar_description }}
+      </p>
+  </div>
+  {% comment %}
+  <!-- {% include sidebar-social.html %} -->
+  {% endcomment %}
 </div>
 
 
 {% comment %}
 <!-- 
-
-
-
   <div class="sidebar-info">
       <p>
         {{ site.description }}
