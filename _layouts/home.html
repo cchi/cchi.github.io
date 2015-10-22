@@ -6,12 +6,12 @@
 
 <body class="home-template" itemscope itemtype="http://schema.org/WebPage">
 {% include sidebar.html %}
-<div class="wrap">
+<div class="main-wrapper">
     <header class="notepad-site-head">
         <div class="container">
             <div class="notepad-site-head-menu">
                 
-                <a class="notepad-blog-logo" href="{{ site.url }}"><img src="{{ site.url }}/assets/img/{{ site.logo }}" alt="logo" /></a>
+               <a class="notepad-blog-logo" href="{{ site.url }}"><img src="{{ site.url }}/assets/img/{{ site.logo }}" alt="logo" /></a>
                 
                 <div class="notepad-blog-menu">      
                 <div class="notepad-mobile-menu show-for-small">
@@ -21,13 +21,13 @@
                     <li class="notepad-mobile-close-btn show-for-small text-right">
                         <a href="#"><i class="fa fa-times"></i></a>
                     </li>
-            {% for link in site.links %}
-                        <li>{% if link.external %}
-                        <a href="{{ link.url }}">{{ link.title }}</a>
-                        {% else %}
-                        <a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
-                        {% endif %} </li>
-            {% endfor %}            
+                {% for link in site.links %}
+                            <li>{% if link.external %}
+                            <a href="{{ link.url }}">{{ link.title }}</a>
+                            {% else %}
+                            <a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
+                            {% endif %} </li>
+                {% endfor %}            
                        <!--<li><a href="{{ site.url }}/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li>-->
                 </ul>
             </div>
@@ -53,10 +53,10 @@
 <a href="#0" class="wc-top">Top</a>
 
 <label for="sidebar-checkbox" class="sidebar-toggle">
-  <span></span>
+    <span></span>
 </label>
 
-    {% include footer.html %}
+{% include footer.html %}
 
 {% include scripts.html %}  
 </body>
