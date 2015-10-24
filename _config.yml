@@ -33,9 +33,22 @@ google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:         
 
-# Links to include in footer navigation
+# Links to include in header navigation
 # For external links add external: true
 links:
+  - title: Home
+    url: /
+    external: false
+    icon: home
+  - title: Explore
+    url: /explore
+    external: false
+  - title: About
+    url: /about
+    external: false
+# Links to include in sidebar navigation
+# For external links add external: true
+sidelinks:
   - title: Home
     url: /
     external: false
