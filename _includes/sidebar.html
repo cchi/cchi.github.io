@@ -24,7 +24,7 @@ styles and `#sidebar-toggle-checkbox` for behavior.
 
   <nav class="sidebar-nav">
 
-    {% assign pages_list = site.links %}
+    {% assign pages_list = site.sidelinks %}
     {% for node in pages_list %}
       {% if node.title != null %}
           <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
