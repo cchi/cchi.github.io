@@ -18,8 +18,8 @@
 
 .container {
   max-width: 150rem;
-  padding-left:  1rem;
-  padding-right: 1rem;
+  padding-left:  0.3rem;
+  padding-right: 0.3rem;
   margin-left:  auto;
   margin-right: auto;
 }
@@ -123,6 +123,12 @@ a.sidebar-nav-item:focus {
 /* Hide the sidebar checkbox that we toggle with `.sidebar-toggle` */
 .sidebar-checkbox {
   display: none;
+  position: fixed;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  z-index: 1000;
+  top:  1rem;
+  left: 1rem;
 }
 
 /* Style the `label` that we use to target the `.sidebar-checkbox` */
@@ -131,7 +137,7 @@ a.sidebar-nav-item:focus {
   transform: translateZ(0);
   -webkit-transform: translateZ(0);
   z-index: 1000;
-  top:  5rem;
+  top:  1rem;
   left: 1rem;
   display: block;
   width: 2.2rem;
@@ -145,19 +151,19 @@ a.sidebar-nav-item:focus {
 .sidebar-toggle:hover {
   background-color: #006699;
 }
-.sidebar-toggle:before {
+/*.sidebar-toggle:before {
   display: block;
   content: " ";
   width: 100%;
-  padding-bottom: .125rem;
-  border-top: .375rem double;
-  border-bottom: .125rem solid;
+  padding-bottom: .125rem;*/
+/*  border-top: .375rem double;
+  border-bottom: .125rem solid;*/
 
   /* Make the border inside the box */
-  -webkit-box-sizing: border-box;
+/*  -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
-}
+}*/
 
 .sidebar-toggle:active,
 #sidebar-checkbox:checked ~ .sidebar-toggle {
@@ -193,7 +199,7 @@ a.sidebar-nav-item:focus {
 
 /* Slide effect
  *
- * Handle the sliding effects of the sidebar and content in one spot, seperate
+ * Handle the sliding effects of the sidebar and content in one spot, separate
  * from the default styles.
  *
  * As an a heads up, we don't use `transform: translate3d()` here because when
@@ -228,8 +234,12 @@ a.sidebar-nav-item:focus {
       -ms-transform: translateX(18rem);
           transform: translateX(18rem);
 }
-
-
+.sidebar-toggle {
+  position: fixed;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  z-index: 1000;
+}
 
 /*
  * floating 'back to top button'
@@ -249,7 +259,7 @@ a.sidebar-nav-item:focus {
     position: fixed;
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
-    z-index: 1000;
+    z-index: 1003;
     box-shadow: 0 0 10px rgba(0,0,0,0.05);
     overflow: hidden;
     text-indent: 100%;
