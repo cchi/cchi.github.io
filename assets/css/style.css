@@ -37,6 +37,10 @@ main, .notepad-share-icons, .notepad-disqus {
 .animated-post {
   background: transparent; }
 
+.notepad-blog-logo {
+  padding-left: 3.8rem;
+}
+
 .notepad-blog-menu {
   padding-top: 0;
   padding-bottom: 0;
