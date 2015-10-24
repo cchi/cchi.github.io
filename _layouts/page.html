@@ -8,6 +8,7 @@
 <div class="main-wrapper">
     <main id="notepad-page-container" class="notepad-page-container" role="main">
         <header class="notepad-page-header">
+        <div class="container">
             <div class="notepad-page-menu-header">
                     
                 <a class="notepad-blog-logo" href="{{ site.url }}">
@@ -15,9 +16,9 @@
                 </a>
                 
                 <div class="notepad-blog-menu">      
-                    <div class="notepad-mobile-menu show-for-small">
+<!--                     <div class="notepad-mobile-menu show-for-small">
                         <a href="#"><i class="fa fa-bars"></i></a>
-                    </div>
+                    </div> -->
                     <ul class="notepad-menu">
                         <li class="notepad-mobile-close-btn show-for-small text-right">
                             <a href="#"><i class="fa fa-times"></i></a>
@@ -38,6 +39,7 @@
                     <h1>{{ page.title }}</h1>
                 </div>
             </div>
+        </div>
         </header>
 
         <article class="notepad-page-content">
@@ -46,14 +48,15 @@
 
         <a href="#0" class="wc-top">Top</a>
         <label for="sidebar-checkbox" class="sidebar-toggle">
-          <span></span>
+          <i class="fa fa-terminal"></i><span></span>
         </label>
 
         <div class="cf"></div>
-
+    {% include footer.html %}
     </main>
+
 </div>
-{% include footer.html %}
+
 {% include scripts.html %}  
 </body>
 </html>
