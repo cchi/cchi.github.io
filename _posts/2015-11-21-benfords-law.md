@@ -1,7 +1,7 @@
 ---
 author: Charles Chi
 layout: post
-title: "The Law Of Benford"
+title: "Benford's Law"
 date: 2015-11-21 22:52
 comments: false
 category:
