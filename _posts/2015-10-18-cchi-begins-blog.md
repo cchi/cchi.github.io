@@ -4,9 +4,12 @@ layout: post
 title: "Chialities Launched!"
 date: 2015-10-18 00:00
 comments: true
-category: general
+category:
+ - general
 tags:
-- general
+ - general
+ - github
+ - jekyll
 ---
 
 Welcome to my Data Science blog!
