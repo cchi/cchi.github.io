@@ -25,4 +25,5 @@ Essentially, this is a mathematical law that describes frequency distribution of
 I was reminded of Benford's Law after listening to a [Linear Digressions](https://www.udacity.com/podcasts/linear-digressions) [podcast](http://www.stitcher.com/podcast/linear-digressions/e/benfords-law-41309967). (I love this podcast by the way, I highly recommend it! Especially if you are interested in Data Science)
 
 We will acquire some data from the web, including Yahoo Finance; perform some quick transformations; and investigate the distributions by a histogram. Head over to my iPython Notebook found on GitHub:
-	> [Benford.ipynb](https://github.com/cchi/benford/blob/master/benford.ipynb)
+
+[benford.ipynb](https://github.com/cchi/benford/blob/master/benford.ipynb)
