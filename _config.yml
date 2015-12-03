@@ -4,6 +4,7 @@ sidebar_introduction: "Hi, I'm a professional Data Scientist, based in San Franc
 sidebar_description: "Chialities made with <3 by cchi."
 logo:             chialities-logo.png
 avatar:           cchi-avatar_reg.png
+banner:           banner.jpg
 disqus_shortname: cchi
 share:            true
 dropcap:	        true
