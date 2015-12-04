@@ -18,7 +18,7 @@ tags:
 
 What's the salary distribution of the NBA this season?
 
-<img src="https://pixabay.com/static/uploads/photo/2014/05/13/04/23/economy-343066_960_720.jpg" style="width:500px;height:350px;">
+<img src="https://pixabay.com/static/uploads/photo/2014/05/13/04/23/economy-343066_960_720.jpg" style="width:500px;height:350px;"/>
 
 I love basketball, and I love the NBA. Which players make the big bucks? Which team pays their players the least? Which player makes up a large portion for their total team's contracts?
 
