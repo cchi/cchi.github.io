@@ -22,7 +22,7 @@ What's the salary distribution of the NBA this season?
 
 I love basketball, and I love the NBA. Which players make the big bucks? Which team pays their players the least? Which player makes up a large portion for their total team's contracts?
 
-Hopefully, you are curious about salary distributions throughout the league as I am. Wouldn't it be cool to explore contract sizes team by team, as well as player salaries within each team? I recently got inspiration from a post,
+Hopefully, you are as curious about salary distributions throughout the league as I am. Wouldn't it be cool to explore contract sizes team by team, as well as player salaries within each team? I recently got inspiration from a post,
 <a href="http://www.stathunting.com/2015/08/18/2015-mls-salaries-and-you-can-add-hypothetical-signings-tableau-public-drogba/" target="_blank">MLS Salaries Visualization</a>, and deemed it super informative. I wanted to produce a similar visualization for NBA contracts!
 
 <a href="http://www.basketball-reference.com" target="_blank">Basketball Reference</a> is a <b>terrific</b> resource for all NBA and Basketball data. We will start there to obtain the data from this page: <a href="http://www.basketball-reference.com/contracts/players.html" target="_blank">2015-2016 Player Contracts</a>. I first downloaded the CSV version. From there, after some processing and touchups, this is the final visual product:
