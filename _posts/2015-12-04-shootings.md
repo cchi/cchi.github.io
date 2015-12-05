@@ -28,15 +28,15 @@ Find my entire walkthrough and code here:
 <h3>Here are some highlights:</h3>
 
 > Basic analysis of categorical data.
-![shooting_6graphs]({{ site.url }}/assets/img/shootings/shooting_6graphs.png)
+![shooting_6graphs]({{ site.url }}/assets/img/2015-12-05-shootings/shooting_6graphs.png)
 
 > A temporal heatmap.
-![shooting_temporalheatmap]({{ site.url }}/assets/img/shootings/shooting_temporalheatmap.png)
+![shooting_temporalheatmap]({{ site.url }}/assets/img/2015-12-05-shootings/shooting_temporalheatmap.png)
 
 > Interactive maps with Folium. (Visit the notebook for full interaction. These are just screenshots)
-![shooting_map]({{ site.url }}/assets/img/shootings/shooting_map.png)
+![shooting_map]({{ site.url }}/assets/img/2015-12-05-shootings/shooting_map.png)
 > With zoom functionality and incident markers.
-![shooting_map_zoom]({{ site.url }}/assets/img/shootings/shooting_map_zoom.png)
+![shooting_map_zoom]({{ site.url }}/assets/img/2015-12-05-shootings/shooting_map_zoom.png)
 
 Once again, thanks and credit to motherjones.com and shootingtracker.com for the datasets. Although this is a grim topic indeed, exploring the data was informative and I learned a ton. Link to full walkthrough <a href="http://nbviewer.ipython.org/github/cchi/research/blob/master/shootings/mass_shootings_events.ipynb" target="_blank">here</a>. May we see less of these unfortunate incidents in the future.
 
