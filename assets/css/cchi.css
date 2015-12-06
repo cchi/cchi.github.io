@@ -13,20 +13,18 @@
 
 .PostNavigation a {
   display: inline-block;
-  width: 40%;
-  margin: 1em 0;
+  padding: 0.3125rem 0.9375rem;
+  color: black;
   border: 0.1rem solid black;
   border-radius: 1.5rem;
+  margin: 1em 0;
+  margin-right: 0.1875rem;
+  margin-bottom: 0.3125rem;
 }
-/*    
-      display: inline-block;
-      padding: 0.3125rem 0.9375rem;
-      margin-right: 0.1875rem;
-      color: black;
-
-      margin-bottom: 0.3125rem;
-      */
-
+.PostNavigation a:hover {
+  color: #006699;
+  border: 0.1rem solid #006699; 
+}
 .PostNavigation .prevpost {
   text-align: left;
 }
