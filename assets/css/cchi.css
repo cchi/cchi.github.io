@@ -5,7 +5,6 @@
 .PostNavigation {
   font-size: 16px;
   display: block;
-  width: 90%;
   margin-left: 5%;
   margin-right: 5%;
   overflow: hidden;
@@ -27,10 +26,11 @@
 }
 .PostNavigation .prevpost {
   text-align: left;
+  float: right;
 }
-
 .PostNavigation .nextpost {
   text-align: right;
+  float: left;
 }
 
 
