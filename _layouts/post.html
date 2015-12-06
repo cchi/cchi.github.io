@@ -13,50 +13,42 @@
         <main id="notepad-post-container" class="notepad-post-container intro-effect-sliced" role="main">
             <header class="notepad-post-header">
             <div class="container">
-            <div class="bg-img"></div>
-            <div class="notepad-post-menu-header">
+                <div class="bg-img">
+                </div>
+                <div class="notepad-post-menu-header">
     {% else %}
         <main id="notepad-post-container-simple" class="notepad-post-container-simple" role="main">
             <header class="notepad-post-header-simple">
             <div class="container">
-            <div class="notepad-post-menu-header-simple">
+                <div class="notepad-post-menu-header-simple">
     {% endif %}
                 <a class="notepad-blog-logo" href="{{ site.url }}">
                     <img src="{{ site.url }}/assets/img/{{ site.logo }}" alt="logo" />
                 </a>
 
-            <div class="notepad-blog-menu">      
-                    <!--     <div class="notepad-mobile-menu show-for-small">
-                            <a href="#"><i class="fa fa-bars"></i></a>
-                        </div> -->
-                    <ul class="notepad-menu">
-                        <li class="notepad-mobile-close-btn show-for-small text-right">
-                            <a href="#"><i class="fa fa-times"></i></a>
-                        </li>
-                        {% for link in site.links %}
-                        <li>{% if link.external %}
-                                <a href="{{ link.url }}">{{ link.title }}</a>
-                            {% else %}
-                                <a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
-                            {% endif %}
-                        </li>
-                        {% endfor %}            
-                       <!--<li><a href="{{ site.url }}/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li>-->
-                    </ul>
+                    <div class="notepad-blog-menu">      
+                        <!--     <div class="notepad-mobile-menu show-for-small">
+                                <a href="#"><i class="fa fa-bars"></i></a>
+                            </div> -->
+                        <ul class="notepad-menu">
+                            <li class="notepad-mobile-close-btn show-for-small text-right">
+                                <a href="#"><i class="fa fa-times"></i></a>
+                            </li>
+                            {% for link in site.links %}
+                            <li>{% if link.external %}
+                                    <a href="{{ link.url }}">{{ link.title }}</a>
+                                {% else %}
+                                    <a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
+                                {% endif %}
+                            </li>
+                            {% endfor %}            
+                           <!--<li><a href="{{ site.url }}/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li>-->
+                        </ul>
 
+                    </div>
                 </div>
-            </div>
 
 <div class="cf"></div>
-
-<div class="PostNavigation">
-  {% if page.previous.url %}
-    <a class="prevpost" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
-  {% endif %}
-  {% if page.next.url %}
-    <a class="nextpost" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
-  {% endif %}
-</div>
 
 {% if page.imagefeature %}
             <div class="notepad-post-title bg-check">
@@ -88,11 +80,25 @@
             </header>
 {% endif %}
 
-        {% if page.imagefeature %}<article class="notepad-post-content post">{% else %}<article class="notepad-post-content post tag-simple">{% endif %}
-            <div>
-                {{ content }}
-            </div>
-        </article>
+<div class="PostNavigation">
+  {% if page.previous.url %}
+    <a class="prevpost" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+  {% endif %}
+  {% if page.next.url %}
+    <a class="nextpost" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+  {% endif %}
+</div>
+
+        {% if page.imagefeature %}
+            <article class="notepad-post-content post">
+        {% else %}
+            <article class="notepad-post-content post tag-simple">
+        {% endif %}
+                <div>
+                    {{ content }}
+                </div>
+            </article>
+    
     <div class="cf"></div>
 
 {% if site.share %}
