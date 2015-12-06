@@ -33,11 +33,22 @@ styles and `#sidebar-toggle-checkbox` for behavior.
 
   </nav>
 
+<!--   <div class="sidebar-info">
+      <p>Post Navigation</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    {% for post in paginator.posts %}
+      <a class="sidebar-nav-item" href="">{{ post.title }}</a>
+    {% endfor %}
+  </nav> -->
+
   <div class="sidebar-info">
       <p>
         {{ site.sidebar_description }}
       </p>
   </div>
+
   {% comment %}
   <!-- {% include sidebar-social.html %} -->
   {% endcomment %}
