@@ -3,17 +3,22 @@
  *
  */
 .PostNavigation {
-  font-size: 14px;
+  font-size: 15px;
   display: block;
-  width: auto;
+  width: 35%;
+  margin-left: 10%;
   overflow: hidden;
 }
 
 .PostNavigation a {
-  display: block;
-  width: 25%;
-  float: left;
+  display: inline-block;
+  width: 100%;
+  float: right;
   margin: 1em 0;
+}
+
+.PostNavigation .prev {
+  text-align: right;
 }
 
 .PostNavigation .next {
