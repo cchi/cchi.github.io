@@ -26,11 +26,11 @@
 }
 .PostNavigation .prevpost {
   text-align: left;
-  float: right;
+  float: left;
 }
 .PostNavigation .nextpost {
   text-align: right;
-  float: left;
+  float: right;
 }
 
 
