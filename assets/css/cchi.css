@@ -2,21 +2,21 @@
  * Post Navi
  *
  */
-.PageNavigation {
+.PostNavigation {
   font-size: 14px;
   display: block;
   width: auto;
   overflow: hidden;
 }
 
-.PageNavigation a {
+.PostNavigation a {
   display: block;
-  width: 50%;
+  width: 25%;
   float: left;
   margin: 1em 0;
 }
 
-.PageNavigation .next {
+.PostNavigation .next {
   text-align: right;
 }
 
