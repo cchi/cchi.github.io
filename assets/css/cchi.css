@@ -3,25 +3,35 @@
  *
  */
 .PostNavigation {
-  font-size: 15px;
+  font-size: 16px;
   display: block;
-  width: 35%;
-  margin-left: 10%;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
   overflow: hidden;
 }
 
 .PostNavigation a {
   display: inline-block;
-  width: 100%;
-  float: right;
+  width: 40%;
   margin: 1em 0;
+  border: 0.1rem solid black;
+  border-radius: 1.5rem;
+}
+/*    
+      display: inline-block;
+      padding: 0.3125rem 0.9375rem;
+      margin-right: 0.1875rem;
+      color: black;
+
+      margin-bottom: 0.3125rem;
+      */
+
+.PostNavigation .prevpost {
+  text-align: left;
 }
 
-.PostNavigation .prev {
-  text-align: right;
-}
-
-.PostNavigation .next {
+.PostNavigation .nextpost {
   text-align: right;
 }
 
