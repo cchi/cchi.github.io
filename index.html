@@ -32,8 +32,8 @@ tags: [Charles, Chi, cchi, ChiN0te]
                 <p>{{ post.content | strip_html | truncatewords:40 }}</p>
             </section>
             
-                <div class="notepad-index-post-tags">
-                {% for tag in post.categories %}<a href="{{ site.url }}/explore/index.html#{{ post.categories | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} category">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
+                <div class="notepad-index-post-tags cchi-post-tags">
+                {% for tag in post.tags %}<a href="{{ site.url }}/tags/index.html#{{ tag | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} tags">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
                     
                 </div>
             
