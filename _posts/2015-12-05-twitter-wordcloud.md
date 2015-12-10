@@ -14,7 +14,7 @@ tags:
  - python
 ---
 
-Twitter Word Cloud
+Twitter Word Cloud. 
 
 ![twitter-wordcloud]({{ site.url }}/assets/img/2015-12-05-twitter-wordcloud/twitter-wordcloud.png)
 

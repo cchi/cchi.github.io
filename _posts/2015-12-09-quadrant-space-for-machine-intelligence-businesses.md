@@ -16,7 +16,7 @@ tags:
  - matrix
 ---
 
-Quadrants of Machine Intelligence Companies
+Quadrants of Machine Intelligence Companies. 
 
 <img src="http://www.a2isystems.com/files/images/background-images/1920x1278/tandhjul.jpg" style="width:500px;height:350px;"/>
 

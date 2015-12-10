@@ -14,7 +14,7 @@ tags:
  - geodata
 ---
 
-Research on US Mass Shootings
+Research on US Mass Shootings. 
 
 <img src="http://www.advocate-online.net/wp-content/uploads/2013/01/gun-control-graphic2backup.jpg" style="width:800px;height:300px;">
 

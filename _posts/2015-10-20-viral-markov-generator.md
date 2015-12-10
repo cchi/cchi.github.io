@@ -14,7 +14,7 @@ tags:
  - news
 ---
 
-Ahh! It's Viral!
+Ahh! It's Viral! 
 
 12 of the Strangest Weather-Related Photographs Ever Taken . Wow . Watch These Rhinos Fly !
 

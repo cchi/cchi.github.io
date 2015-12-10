@@ -12,7 +12,7 @@ tags:
  - jekyll
 ---
 
-Welcome to my Data Science blog!
+Welcome to my Data Science blog! 
 
 <img src="https://pixabay.com/static/uploads/photo/2012/11/28/10/35/rocket-launch-67646_960_720.jpg" style="width:800px;height:500px;">
 

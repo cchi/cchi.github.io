@@ -14,7 +14,7 @@ tags:
  - data
 ---
 
-The Law of Benford!
+The Law of Benford! 
 
 <img src="http://www.fraudriskanalysis.net/uploads/4/6/4/1/4641392/607573.png" style="width:250px;height:90px;"/>
 
