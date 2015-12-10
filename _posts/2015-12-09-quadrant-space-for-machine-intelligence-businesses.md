@@ -31,7 +31,7 @@ This TechCrunch <a href="http://techcrunch.com/2015/11/26/machine-intelligence-i
 > - Agents: Builds robots to assist in workflows and unlock higher-level human creativity.
 > - Pioneers: Extremely smart team with goal to solve problems that that seem impossible.
 
-These descriptions prompted me to create a quick quadrant visualization of where each would fit on two spectrums, Focuses/Broad and Consultative/Autonomous, forming a quadrant:
+These descriptions prompted me to create a quick quadrant visualization of where each type would fit on two spectrums, Focused/Broad and Consultative/Autonomous, forming a quadrant:
 
 <img src="{{ site.url }}/assets/img/2015-12-09-quadrant-space-for-machine-intelligence-businesses/quadrants.png" style="width:900px;height:700;"/>
 
